@@ -57,14 +57,6 @@ Setup your machine for Android and iOS using react native guideline for [Buildin
 
 ### iOS
 
-#### Firebase
-
-A GoogleService-Info.plist file contains all of the information required by the Firebase iOS SDK to connect to your Firebase project. To automatically generate the plist file, [follow the instructions](https://firebase.google.com/docs/ios/setup#add_firebase_to_your_app) on the Firebase console to "Add Firebase to your app".
-
-Once downloaded, place the file in the root of your iOS app at ios/[YOUR APP NAME]/GoogleService-Info.plist.
-
-Make sure that the GoogleService-Info.plist file has been added to your project within XCode.
-
 #### Generate IPA
 
 Connect your iOS device to your Mac using a USB to Lightning cable. Navigate to the `ios` folder in your project, then open the `.xcworkspace` file within it using Xcode. 
@@ -81,34 +73,7 @@ Now, Go to **Build** → **Archive**.
 
 This will generate **IPA**.
 
-#### Resign IPA with different provisioning certificate.
-
-**Note: Follow the firebase instruction for the new bundle id. and generate IPA**
-
-Make sure you have selected command line tools in Xcode. (Go to Xcode -> Preference -> Locations)
-
-![](https://image.prntscr.com/image/DB5tRkwQTNysiSneCCNzTQ.png)
-
-Install Fastline
-
-    xcode-select --install
-    sudo gem install fastlane -NV
-
-Put the **IPA and New Provisioning certificate** in a single folder. Make the sure the certificate attached to the provisioning files is in your keychain.
-
-Run the resign command. 
-
-    fastlane sigh resign
-
-This command will resign the IPA and change its bundle id. 
-
 ### Android
-
-#### Firebase
-
-A GoogleService-Info.plist file contains all of the information required by the Firebase iOS SDK to connect to your Firebase project. To automatically generate the plist file, [follow the instructions](https://firebase.google.com/docs/ios/setup#add_firebase_to_your_app) on the Firebase console to "Add Firebase to your app".
-
-Once downloaded, place this file in the root of your project at android/app/google-services.json.
 
 #### Generating a signing key
 
