@@ -4,6 +4,7 @@ ADDED from /Users/mushfique/Research/WebBrowser/android/app/src/main/AndroidMani
 INJECTED from /Users/mushfique/Research/WebBrowser/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/mushfique/Research/WebBrowser/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/mushfique/Research/WebBrowser/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-orientation-locker] /Users/mushfique/Research/WebBrowser/node_modules/react-native-orientation-locker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/mushfique/Research/WebBrowser/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-webview] /Users/mushfique/Research/WebBrowser/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.59.8] /Users/mushfique/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/74b0aa1fd2f4498bd7ee37051d7e5188/AndroidManifest.xml:2:1-13:12
@@ -115,6 +116,8 @@ uses-sdk
 INJECTED from /Users/mushfique/Research/WebBrowser/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mushfique/Research/WebBrowser/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mushfique/Research/WebBrowser/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-orientation-locker] /Users/mushfique/Research/WebBrowser/node_modules/react-native-orientation-locker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-orientation-locker] /Users/mushfique/Research/WebBrowser/node_modules/react-native-orientation-locker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/mushfique/Research/WebBrowser/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/mushfique/Research/WebBrowser/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-webview] /Users/mushfique/Research/WebBrowser/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
