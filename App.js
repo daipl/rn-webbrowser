@@ -130,6 +130,7 @@ export default class App extends Component {
             renderLoading={this.ActivityIndicatorLoadingView}
             startInLoadingState
             onNavigationStateChange={(state) => this.getNewUrl(state)}
+            onMessage={() => console.log('OnMessage log')}
           />
         </View>
 

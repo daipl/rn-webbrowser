@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Sep 14 13:07:35 IST 2019
+#Mon Aug 31 16:35:56 IST 2020
 56.path=lib/arm64-v8a/libyoga.so
 5.base=/Users/mushfique/Research/WebBrowser/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
 42.base=/Users/mushfique/Research/WebBrowser/android/app/build/intermediates/transforms/stripDebugSymbol/release/0

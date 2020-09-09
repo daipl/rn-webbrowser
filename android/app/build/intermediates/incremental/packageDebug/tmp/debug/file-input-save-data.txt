@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 16 23:08:29 IST 2020
+#Wed Aug 19 13:00:39 IST 2020
 56.path=fonts/Feather.ttf
 5.base=/Users/mushfique/Research/WebBrowser/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 42.base=/Users/mushfique/Research/WebBrowser/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
