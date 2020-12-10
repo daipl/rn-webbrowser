@@ -20,8 +20,8 @@ let StatusBarHeight = StatusBar.currentHeight
 
 export default class App extends Component {
   state = {
-    url: 'https://manpower-console.lrn.com/auth/backdoor',
-    inputurl: 'https://manpower-console.lrn.com/auth/backdoor',
+    url: 'https://gs.statcounter.com/detect',
+    inputurl: 'https://gs.statcounter.com/detect',
     width: DEVICE.width
   }
 
@@ -131,6 +131,8 @@ export default class App extends Component {
             startInLoadingState
             onNavigationStateChange={(state) => this.getNewUrl(state)}
             onMessage={() => console.log('OnMessage log')}
+            applicationNameForUserAgent={'LRNCatalystConnectApp'}
+            setSupportMultipleWindows={false}
           />
         </View>
 
