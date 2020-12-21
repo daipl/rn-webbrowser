@@ -131,7 +131,7 @@ export default class App extends Component {
             startInLoadingState
             onNavigationStateChange={(state) => this.getNewUrl(state)}
             onMessage={() => console.log('OnMessage log')}
-            applicationNameForUserAgent={'LRNCatalystConnectApp'}
+            applicationNameForUserAgent={'LRN Catalyst Connect App'}
             setSupportMultipleWindows={false}
           />
         </View>
